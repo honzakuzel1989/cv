@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Rishi Shah 
+% Jan Kuzel
+%
+% Important note:
+% This template requires the cv.cls file to be in the same directory as the
+% .tex file. The cv.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{cv} % Use the custom cv.cls style
+\usepackage[ocgcolorlinks]{hyperref}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    urlcolor={blue!50!black}
+}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.5in,top=0.45in,right=0.5in,bottom=0.45in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Jan Ku\v zel} % Your name
+\address{\href{http://linkedin.com/in/jan-ku\%C5\%BEel-685330116}{linkedin.com/in/jan-kuzel-685330116}}
+\address{\href{http://www.github.com/honzakuzel1989}{github.com/honzakuzel1989}}
+\address{\href{mailto: honza.kuzel.1989@gmail.com}{honza.kuzel.1989@gmail.com}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Vzdělání}
+
+{\bf 
+\href{https://www.fit.vut.cz/}{Fakulta informačních technologií}, \href{https://www.vutbr.cz}{Vysoké učení technické v Brně}} \hfill {\em 2011 - 2013} 
+\\ Ing., Bezpečnost informačních technologií
+\\
+\\{\bf 
+\href{https://www.fit.vut.cz/}{Fakulta informačních technologií}, \href{https://www.vutbr.cz}{Vysoké učení technické v Brně}} \hfill {\em 2008 - 2011} 
+\\ Bc., Informační technologie
+
+\end{rSection}
+
+\begin{rSection}{Cíl kariéry}
+ Společně s kvalifikovanými lidmi pracovat v progresivní organizaci na zajímavých projektech, které mi poskytnou možnost ke zdokonalení mých dovedností a k další seberealizaci za ohodnocení odpovídající mým zkušenostem.
+\end{rSection}
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Projekty}
+\begin{rSubsection}
+{\href{https://www.vfnuclear.com/cz/produkty/de-monitor-pro-charakterizaci-odpadu}{Monitor pro charakterizaci odpadů, Jaderné zařízení Tianwan, Čína}}{}
+{Vedoucí týmu pro řídící aplikaci a integraci mezi aplikací a technologií}{}
+
+Monitor je určen pro kvantitativní a kvalitativní charakterizaci radioaktivních odpadů o celkové aktivitě v sudu. Sofistikované vyhodnocení umožňuje kromě celkové aktivity v sudu určit i její rozložení.
+\end{rSubsection}
+
+\begin{rSubsection}
+{\href{https://www.vfnuclear.com/cz/dodavka-monitoru-frm-03-pro-uvolnovani-do-zivotniho-prostredi-do-cernobylske-je}{Monitor pro uvolňování do životního prostředí, Jaderná elektrárna Černobyl, Ukrajina}}{}
+{Hlavní vývojář klíčové části projektu, integrace výpočtů a návrh databáze}{}
+
+Zařízení je určeno pro měření aktivity radionuklidů, které se mohou vyskytovat v materiálu uvolňovaném do životního prostředí. 
+\end{rSubsection}
+
+%\begin{rSubsection}
+%{\href{https://www.vf.cz/files/upload/reference/SEJVAL.png}{Central Information System of Radiation %Technology, Dukovany Power Plant, Czech}}{}
+%{Main developer for central application used for monitoring and control devices in facility}{}
+
+%The monitoring and control system for the nuclear facility collects and visualize data from the hundreds %of places and allowed to control devices in that facility.
+%\end{rSubsection}
+
+\begin{rSubsection}
+{\href{https://www.vfnuclear.com/cz/produkty/system-rizeni-metrologicke-laboratore-dars}{Systém řízení metrologické laboratoře}}{}
+{Vývojář části aplikace určené pro obecnou komunikaci s technologií}{}
+
+Systém řízení metrologické laboratoře je komplexní systém, určený pro celkové zajištění provozu kalibračních laboratoří měřidel ionizujícího záření.
+\end{rSubsection}
+
+\begin{rSubsection}
+{\href{https://play.google.com/store/apps/details?id=eu.jksoft.planningcalendar}{Kalendář pracovních hodin}}{}
+{Tvůrce a správce celého životního cyklu aplikace for OS Android}{}
+
+Aplikace slouží jako chytrá elektronická alternativa ke klasickému papírovému plánovacímu/pracovnímu kalendáři, který je dobře známý z diářů.
+\end{rSubsection}
+
+\begin{rSubsection}
+{\href{http://honzakuzel.eu/mwarrayextensions.html}{MWArray Extensions}}{}
+{Vývojář testované, změřené a publikované knihovny}{}
+
+Knihovna slouží jako automatický konvertor mezi třídami v běhovém prostředí MATLAB and jazykem C\#.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Pracovní zkušenosti}
+
+\begin{rSubsection}{\href{https://www.vfnuclear.com/cz/}{VF, a.s., \v Cern\' a Hora}}{\em 2013 - nyní}{Vývojář softwaru}{TFS, Git, VS, .NET, C\#, WPF, TPL, LINQ, Oracle, Bash, Python, C}
+Reálné projekty radiační technologie k dlouhotrvajícímu provozu na různých místech po celém světě.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{http://www.fask.cz/}{Fask, s.r.o., Brno}}{\em 2011 - 2013}{Programátor}{.NET, C\#, WinForms, Web services, VS, MS SQL Server, SVN}
+Projekt pro skladové hospodářství pro několik firem v České Republice
+\end{rSubsection}
+
+\end{rSection}
+\end{document}
